@@ -9,5 +9,3 @@ def attack(n, e, c):
 
     dt = pow(c, d, n)
     return long_to_bytes(dt)
-
-print(attack(N, e, c))
